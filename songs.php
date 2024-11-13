@@ -70,4 +70,4 @@ $songs = [
         'artist' => 'Spongebob Squarepants',
         'duration' => '0:57'
     ],
-]
+];
