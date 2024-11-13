@@ -1,0 +1,16 @@
+head {
+}
+body {
+    color:green;
+}
+header {
+}
+@media (max-width: 800px) {
+    #pl-description {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        line-clamp: 2; 
+        -webkit-box-orient: vertical;
+    }
+}
