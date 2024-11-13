@@ -1,9 +1,11 @@
 head {
+    color:white;
 }
 body {
-    color:green;
+    color:#1DB954;
 }
 header {
+    color:#191414;
 }
 @media (max-width: 800px) {
     #pl-description {
