@@ -7,6 +7,19 @@ body {
 header {
     color:#191414;
 }
+
+#pl-name {
+    color: #ffffff;
+}
+
+.btn {
+    background-color: #1DB954;
+    color: #ffffff;
+}
+
+.row {
+    color: #ffffff;
+}
 @media (max-width: 800px) {
     #pl-description {
         overflow: hidden;
