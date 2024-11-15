@@ -1,25 +1,43 @@
 head {
     color:white;
+    background-color: #2a513f;
 }
 body {
-    color:#1DB954;
+    color:#83ba36;
+    background-color: #2a513f;
 }
 header {
-    color:#191414;
+    color:#ffffff;
+    background-color: #2a513f;
 }
-
-#pl-name {
-    color: #ffffff;
+footer {
+    color:#ffffff;
+    background-color:#2a513f;
 }
-
 .btn {
-    background-color: #1DB954;
-    color: #ffffff;
+    background-color: #70e0bb;
+    color: white;
+}
+.row {
+    color: #83ba36;
 }
 
-.row {
-    color: #ffffff;
+.py-2 {
+    background-color: black;
 }
+.img-fluid {
+    height:300px;
+    width:400px;
+}
+.my-auto {
+    color: #83ba36;
+}
+
+.body {
+    color: #2a513f;
+}
+
+
 @media (max-width: 800px) {
     #pl-description {
         overflow: hidden;
