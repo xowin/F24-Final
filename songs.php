@@ -1,7 +1,7 @@
 <?php
 $songs = [
     [
-        'cover' => 'Red_Like_Roses_Cover.jpg',
+        'cover' => '/images/Red_Like_Roses_Cover.jpg',
         'title' => 'Red Like Roses (Red Trailer)',
         'album' => 'Songs Part One',
         'artist' => 'Jeff Williams, Casey Lee Williams',
