@@ -17,6 +17,9 @@ footer {
 .btn {
     background-color: #70e0bb;
     color: white;
+    border-style: solid;
+    border-color: #83ba36 black black #83ba36;
+    margin: 0px -5px 20px 10px;
 }
 .row {
     color: #83ba36;
@@ -28,6 +31,11 @@ footer {
 .img-fluid {
     height:300px;
     width:400px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: #83ba36 black black #83ba36;
+    margin: 20px 20px 20px 10px;
 }
 .my-auto {
     color: #83ba36;
