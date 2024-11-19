@@ -15,33 +15,32 @@
   <!-- Custom styles -->
   <link rel="stylesheet" href="styles/style.css" />
 </head>
-
-<body class="bg-dark">
-  <!-- playlist header -->
-  <header class="container-fluid">
-    <div class="row justify-content-center">
-      <!-- playlist image -->
-      <div class="col-12 col-md-6">
-        <img src="/images/placeholder.jpg" alt="playlist image" class="img-fluid" />
-      </div> <!-- playlist information -->
-      <!-- playlist information -->
-      <div class="col-12 col-sm my-auto pb-2 pb-sm-0 pe-sm-5">
+<body class="body">
+    <!-- playlist header -->
+     <header class="container-fluid">
+        <div class="row justify-content-center">
+        <!-- playlist image -->
+         <div class="col-12 col-md-4">
+         <img src="/images/placeholder.jpg" alt="playlist image" class="img-fluid" />
+        </div>        <!-- playlist information -->
+        <!-- playlist information -->
+        <div class="col-2 col-sm my-auto pb-2 pb-sm-0 pe-sm-5">
         <small>Playlist</small>
         <h1><strong id="pl-name">On Repeat</strong></h1>
         <p id="pl-description">Songs I can't get enough of right now!</p>
         <p class="d-block text-shadow-white">
           <small><i class="bi bi-github"></i></small>
-          <small>
+          <small id="create">
             Created by
             <a href="" class="text-decoration-none text-light"></a>
           </small>
         </p>
       </div>
     </div>
-    <!-- Action buttons -->
-    <div class="p-6 bg-transparent">
+        <!-- Action buttons -->
+        <div class="p-6">
       <button type="button" class="btn btn-play" aria-label="Play">
-        <i class="bi bi-play-fill text-light"></i>
+        <i class="bi bi-play-fill"></i>
       </button>
       <button type="button" class="btn" id="btn-favorite" aria-label="Favorite">
         <i class="bi bi-heart text-light"></i>
@@ -49,9 +48,9 @@
       <button type="button" class="btn" id="btn-more-options" aria-label="More options">
         <i class="bi bi-three-dots text-light"></i>
       </button>
-    </div>
-    <!-- Song information row -->
-    <div class="container-fluid bg-dark text-center border-top border-bottom border-secondary py-2 full-width-row">
+    </div> 
+        <!-- Song information row -->
+        <div class="container-fluid text-center border-top border-bottom border-secondary py-2 full-width-row">
       <div class="row">
         <small class="col-1">#</small>
         <small class="col-4 text-start">Title</small>
