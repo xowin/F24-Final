@@ -36,21 +36,21 @@ $songs = [
         'duration' => '2:25'
     ],
     [
-        'cover' => '',
+        'cover' => 'bird.jpeg',
         'title' => "Joke's On You",
         'album' => "Joke's On You",
         'artist' => 'Charlotte Lawrence',
         'duration' => '3:11'
     ],
     [
-        'cover' => '',
+        'cover' => 'DreamingOutLoud.jpg',
         'title' => 'Stop And Stare',
         'album' => 'Dreaming Out Loud',
         'artist' => 'OneRepublic',
         'duration' => '3:44'
     ],
     [
-        'cover' => '',
+        'cover' => '21C.jpg',
         'title' => 'Chlorine',
         'album' => 'Trench',
         'artist' => 'Twenty One Pilots',
@@ -64,7 +64,7 @@ $songs = [
         'duration' => '3:46'
     ],
     [
-        'cover' => '',
+        'cover' => 'campfire.jpg',
         'title' => 'Campfire Song Song',
         'album' => "SpongeBob's Greatest Hits",
         'artist' => 'Spongebob Squarepants',
