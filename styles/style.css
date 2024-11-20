@@ -1,14 +1,16 @@
-head {
-    color:white;
-    background-color: #2a513f;
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body {
     color:#83ba36;
-    background-color: #2a513f;
+    background: linear-gradient(#2a513f, #70e0bb);
 }
 header {
     color:#ffffff;
-    background-color: #2a513f;
+    background-color:  #2a513f;
 }
 footer {
     color:#ffffff;
