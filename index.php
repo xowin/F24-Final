@@ -31,7 +31,7 @@
         <p class="d-block text-shadow-white">
           <small><i class="bi bi-github"></i></small>
           <strong><small id="create">
-            Created by
+            Created by Hayley, Ethan
             <a href="" class="text-decoration-none text-light"></a></strong>
           </small>
         </p>
