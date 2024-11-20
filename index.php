@@ -25,14 +25,14 @@
         </div>        <!-- playlist information -->
         <!-- playlist information -->
         <div class="col-2 col-sm my-auto pb-2 pb-sm-0 pe-sm-5">
-        <small>Playlist</small>
+        <small><strong>Playlist</small></strong>
         <h1><strong id="pl-name">On Repeat</strong></h1>
-        <p id="pl-description">Songs I can't get enough of right now!</p>
+        <strong><p id="pl-description">Songs I can't get enough of right now!</strong></p>
         <p class="d-block text-shadow-white">
           <small><i class="bi bi-github"></i></small>
-          <small id="create">
+          <strong><small id="create">
             Created by
-            <a href="" class="text-decoration-none text-light"></a>
+            <a href="" class="text-decoration-none text-light"></a></strong>
           </small>
         </p>
       </div>
@@ -68,14 +68,17 @@
     ?>
   </main>
 
-  <!-- Media controls -->
-  <footer class="footer fixed-bottom bg-dark">
+   <!-- Media controls -->
+   <footer class="footer fixed-bottom bg-dark">
+
 
 
     <!-- Progress bar -->
+    <footer class="progress">
+<footer class="progress-bar" style="width:88%"></footer>
+   </footer>
 
-
-  </footer>
+</footer>
 
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
