@@ -65,6 +65,22 @@
 
     <?php
     include 'songs.php';
+    foreach ($songs as $index => $song) {
+      echo '<div class="row song align-items-center">';
+      echo '<small class="col-1">' . ($index + 0) . '</small>';
+      echo '<div class="col-4 text-start d-flex align-items-center">';
+      if (isset($song)) {
+          echo '<img src="' . ['cover'] . '" alt="' . ['title'] . ' cover" style="width:50px;height:auto;margin-right:10px;">';
+      } else {
+          echo '<img src="images/default_cover.png" alt="Default cover" style="width:50px;height:auto;margin-right:10px;">';
+      }
+      echo '<span class="text-truncate">' . ['title'] . '</span>';
+      echo '</div>';
+      echo '<div class="col ">' . ['album'] . '</div>';
+      echo '<div class="col ">' . ['artist'] . '</div>';
+      echo '<div class="col px-0">' . ['duration'] . '</div>';
+      echo '</div>';
+    }
     ?>
   </main>
 
