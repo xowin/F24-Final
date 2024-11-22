@@ -42,7 +42,9 @@ footer {
 .my-auto {
     color: #83ba36;
 }
-
+.fa-repeat .fa-step-backward .fa-play .fa-step-forward .fa-shuffle {
+    background-color: #83ba36;
+}
 .body {
     color: #2a513f;
 }
