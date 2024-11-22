@@ -83,19 +83,19 @@
         <!-- Media Controls -->
         <div class="d-flex align-items-center">
         <button class="btn btn-outline-light me-2">
-                <i class="fas fa-repeat"></i>
+                <i class="bi bi-arrow-repeat"></i>
         </button>
         <button class="btn btn-outline-light me-2">
-                <i class="fas fa-step-backward"></i>
+                <i class="bi bi-chevron-double-left"></i>
             </button>
             <button class="btn btn-light me-2">
-                <i class="fas fa-play"></i>
+                <i class="bi bi-play-fill"></i>
             </button>
             <button class="btn btn-outline-light me-2">
-                <i class="fas fa-step-forward"></i>
+                <i class="bi bi-chevron-double-right"></i>
             </button>
             <button class="btn btn-outline-light me-2">
-                <i class="fas fa-shuffle"></i>
+                <i class="bi bi-shuffle"></i>
             </button>
         </div>
 

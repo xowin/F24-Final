@@ -49,7 +49,7 @@ footer {
 .progress-bar {
     background-color:#2a513f;
 }
-.fa-repeat .fa-step-backward .fa-play .fa-step-forward .fa-shuffle {
+.bi-arrow-repeat .bi-chevron-double-left .bi-play-fill .bi-chevron-double-right .bi-shuffle {
     background-color: #83ba36;
 }
 .body {
