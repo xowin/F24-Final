@@ -69,16 +69,43 @@
   </main>
 
    <!-- Media controls -->
-   <footer class="footer fixed-bottom bg-dark">
+   </div>
+    <footer class="bg-dark text-white py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+        <!-- Song Title -->
+        <div class="d-flex align-items-center">
+            <div class="ms-3">
+                <p class="mb-0"></p>
+                <small></small>
+            </div>
+        </div>
 
+        <!-- Media Controls -->
+        <div class="d-flex align-items-center">
+            <button class="btn btn-outline-light me-2">
+                <i class="fas fa-step-backward"></i>
+            </button>
+            <button class="btn btn-light me-2">
+                <i class="fas fa-play"></i>
+            </button>
+            <button class="btn btn-outline-light me-2">
+                <i class="fas fa-step-forward"></i>
+            </button>
+        </div>
 
+        <!-- Volume Control -->
+        <div class="d-flex align-items-center">
+            <i class="fas fa-volume-up me-2"></i>
+            <input type="range" class="form-range" id="volumeControl" min="0" max="100" step="1" value="50">
+        </div>
+    </div>
 
-    <!-- Progress bar -->
-    <footer class="progress">
-<footer class="progress-bar" style="width:88%"></footer>
-   </footer>
-
+    <!-- Progress Bar -->
+    <div class="container mt-2">
+        <input type="range" class="form-range" id="progressBar" min="0" max="100" step="1" value="0">
+    </div>
 </footer>
+
 
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -86,6 +113,7 @@
     crossorigin="anonymous">
 
   </script>
+  
 </body>
 
 </html>
