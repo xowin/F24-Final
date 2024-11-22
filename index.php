@@ -39,14 +39,14 @@
     </div>
         <!-- Action buttons -->
         <div class="p-6">
-      <button type="button" class="btn btn-play" aria-label="Play">
+      <button type="button" class="btn" id="btn-play" aria-label="Play">
         <i class="bi bi-play-fill"></i>
       </button>
       <button type="button" class="btn" id="btn-favorite" aria-label="Favorite">
-        <i class="bi bi-heart text-light"></i>
+        <i class="bi bi-heart-fill"></i>
       </button>
       <button type="button" class="btn" id="btn-more-options" aria-label="More options">
-        <i class="bi bi-three-dots text-light"></i>
+        <i class="bi bi-three-dots"></i>
       </button>
     </div> 
         <!-- Song information row -->
@@ -88,8 +88,8 @@
         <button class="btn btn-outline-light me-2">
                 <i class="bi bi-chevron-double-left"></i>
             </button>
-            <button class="btn btn-light me-2">
-                <i class="bi bi-play-fill"></i>
+            <button class="btn btn-outline-light me-2">
+                <i class="bi bi-pause-fill"></i>
             </button>
             <button class="btn btn-outline-light me-2">
                 <i class="bi bi-chevron-double-right"></i>
@@ -107,9 +107,9 @@
     </div>
 
     <!-- Progress Bar -->
-    <div class="container mt-2">
-        <input type="range" class="form-range" id="progressBar" min="0" max="100" step="1" value="0">
-    </div>
+    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar w-0"></div>
+      </div>
 </footer>
 
 

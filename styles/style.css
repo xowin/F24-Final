@@ -16,9 +16,9 @@ footer {
     color:#ffffff;
     background-color:#2a513f;
 }
-.btn {
+#btn-play, #btn-favorite, #btn-more-options {
     background-color: #0eb37c;
-    color: white;
+    color: black;
     border-style: solid;
     border-color: #83ba36 black black #83ba36;
     margin: 0px -5px 20px 10px;
@@ -49,8 +49,12 @@ footer {
 .progress-bar {
     background-color:#2a513f;
 }
-.bi-arrow-repeat .bi-chevron-double-left .bi-play-fill .bi-chevron-double-right .bi-shuffle {
-    background-color: #83ba36;
+.bi-play-fill {
+    border-radius: 50%;
+}
+.bi-arrow-repeat, .bi-chevron-double-left, .bi-chevron-double-right, .bi-shuffle, .bi-pause-fill {
+    color: #83ba36;
+    padding: 0%;
 }
 .body {
     color: #2a513f;
