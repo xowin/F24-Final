@@ -22,6 +22,7 @@ footer {
     border-style: solid;
     border-color: #83ba36 black black #83ba36;
     margin: 0px -5px 20px 10px;
+    box-shadow: 3px 3px black;
 }
 .row {
     color: #83ba36;
@@ -38,11 +39,16 @@ footer {
     border-width: 3px;
     border-color: #83ba36 black black #83ba36;
     margin: 20px 20px 20px 10px;
+    box-shadow: 3px 3px black;
+    border-radius: 8px;
 }
 .my-auto {
     color: #83ba36;
+    text-shadow: 2px 2px black;
 }
-
+.progress-bar {
+    background-color:#2a513f;
+}
 .body {
     color: #2a513f;
 }
