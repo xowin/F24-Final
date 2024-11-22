@@ -82,35 +82,60 @@
 
         <!-- Media Controls -->
         <div class="d-flex align-items-center">
-            <button class="btn btn-light me-2">
-                <i class="fas fa-repeat"></i>
-            </button>
-           <button class="btn btn-outline-light me-2">
-                <i class="fas fa-step-backward"></i>
-            </button>
-            <button class="btn btn-light me-2">
-                <i class="fas fa-play"></i>
-            </button>
-            <button class="btn btn-outline-light me-2">
-                <i class="fas fa-step-forward"></i>
-            </button>
-            <button class="btn btn-light me-2">
-                <i class="fas fa-shuffle"></i>
-            </button>
-        </div>
+    <!-- Repeat Button -->
+    <button class="btn btn-light me-2" aria-label="Repeat">
+        <i class="fas fa-repeat"></i>
+    </button>
+    
+    <!-- Step Backward Button -->
+    <button class="btn btn-outline-light me-2" aria-label="Step Backward">
+        <i class="fas fa-step-backward"></i>
+    </button>
+    
+    <!-- Play Button -->
+    <button class="btn btn-light me-2" aria-label="Play">
+        <i class="fas fa-play"></i>
+    </button>
+    
+    <!-- Step Forward Button -->
+    <button class="btn btn-outline-light me-2" aria-label="Step Forward">
+        <i class="fas fa-step-forward"></i>
+    </button>
+    
+    <!-- Shuffle Button -->
+    <button class="btn btn-light me-2" aria-label="Shuffle">
+        <i class="fas fa-shuffle"></i>
+    </button>
+</div>
 
-        <!-- Volume Control -->
-        <div class="d-flex align-items-center">
-            <i class="fas fa-volume-up me-2"></i>
-            <input type="range" class="form-range" id="volumeControl" min="0" max="100" step="1" value="50">
-        </div>
-    </div>
+<!-- Volume Control -->
+<div class="d-flex align-items-center">
+    <i class="fas fa-volume-up me-2" aria-hidden="true"></i>
+    <input 
+        type="range" 
+        class="form-range" 
+        id="volumeControl" 
+        min="0" 
+        max="100" 
+        step="1" 
+        value="50" 
+        aria-label="Volume Control"
+    >
+</div>
 
-    <!-- Progress Bar -->
-    <div class="container mt-2">
-        <input type="range" class="form-range" id="progressBar" min="0" max="100" step="1" value="0">
-    </div>
-</footer>
+<!-- Progress Bar -->
+<div class="container mt-2">
+    <input 
+        type="range" 
+        class="form-range" 
+        id="progressBar" 
+        min="0" 
+        max="100" 
+        step="1" 
+        value="0" 
+        aria-label="Progress Bar"
+    >
+</div>
 
 
   <script
@@ -119,7 +144,5 @@
     crossorigin="anonymous">
 
   </script>
-  
 </body>
-
 </html>
