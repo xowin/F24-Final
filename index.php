@@ -82,7 +82,10 @@
 
         <!-- Media Controls -->
         <div class="d-flex align-items-center">
-            <button class="btn btn-outline-light me-2">
+            <button class="btn btn-light me-2">
+                <i class="fas fa-repeat"></i>
+            </button>
+           <button class="btn btn-outline-light me-2">
                 <i class="fas fa-step-backward"></i>
             </button>
             <button class="btn btn-light me-2">
@@ -90,6 +93,9 @@
             </button>
             <button class="btn btn-outline-light me-2">
                 <i class="fas fa-step-forward"></i>
+            </button>
+            <button class="btn btn-light me-2">
+                <i class="fas fa-shuffle"></i>
             </button>
         </div>
 
