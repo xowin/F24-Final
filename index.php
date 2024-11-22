@@ -70,7 +70,7 @@
 
    <!-- Media controls -->
    </div>
-    <footer class="bg-dark text-white py-3">
+   <footer class="bg-dark text-white py-3">
     <div class="container d-flex justify-content-between align-items-center">
         <!-- Song Title -->
         <div class="d-flex align-items-center">
