@@ -36,7 +36,7 @@ $songs = [
         'duration' => '2:25'
     ],
     [
-        'cover' => 'images/bird.jpeg',
+        'cover' => 'images/birds.jpeg',
         'title' => "Joke's On You",
         'album' => "Joke's On You",
         'artist' => 'Charlotte Lawrence',
