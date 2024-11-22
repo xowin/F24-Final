@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Sportify</title>
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     rel="stylesheet"
@@ -31,7 +31,7 @@
         <p class="d-block text-shadow-white">
           <small><i class="bi bi-github"></i></small>
           <strong><small id="create">
-            Created by Hayley, Ethan
+            Created by Hayley, Ethan, Vivaan
             <a href="" class="text-decoration-none text-light"></a></strong>
           </small>
         </p>
