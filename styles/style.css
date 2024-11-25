@@ -56,6 +56,10 @@ footer {
     color: #2a513f;
 }
 
+.text-custom-color {
+    color: black;
+}
+
 
 @media (max-width: 800px) {
     #pl-description {

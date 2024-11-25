@@ -65,21 +65,34 @@
 
     <?php
     include 'songs.php';
+    
     foreach ($songs as $index => $song) {
-      echo '<div class="row song align-items-center">';
-      echo '<small class="col-1">' . ($index + 0) . '</small>';
-      echo '<div class="col-4 text-start d-flex align-items-center">';
-      if (isset($song)) {
-          echo '<img src="' . ['cover'] . '" alt="' . ['title'] . ' cover" style="width:50px;height:auto;margin-right:10px;">';
-      } else {
-          echo '<img src="images/default_cover.png" alt="Default cover" style="width:50px;height:auto;margin-right:10px;">';
-      }
-      echo '<span class="text-truncate">' . ['title'] . '</span>';
-      echo '</div>';
-      echo '<div class="col ">' . ['album'] . '</div>';
-      echo '<div class="col ">' . ['artist'] . '</div>';
-      echo '<div class="col px-0">' . ['duration'] . '</div>';
-      echo '</div>';
+        echo '<div class="row song align-items-center">';
+        // Display the song index (1-based index)
+        echo '<small class="col-1">' . ($index + 1) . '</small>';
+    
+        echo '<div class="col-4 text-start d-flex align-items-center">';
+        // Check if the song has a cover image
+        if (isset($song['cover']) && !empty($song['cover'])) {
+            echo '<img src="' . htmlspecialchars($song['cover']) . '" alt="' . htmlspecialchars($song['title']) . ' cover" style="width:50px;height:auto;margin-right:10px;">';
+        } else {
+            // Default cover image if none is provided
+            echo '<img src="images/default_cover.png" alt="Default cover" style="width:50px;height:auto;margin-right:10px;">';
+        }
+        // Display the song title
+        echo '<span class="text-truncate text-custom-color">' . htmlspecialchars($song['title']) . '</span>';
+        echo '</div>';
+    
+        // Display the album
+        echo '<div class="col text-custom-color">' . htmlspecialchars($song['album']) . '</div>';
+    
+        // Display the artist
+        echo '<div class="col-4 text-custom-color">' . htmlspecialchars($song['artist']) . '</div>';
+    
+        // Display the duration
+        echo '<div class="col px-0 text-custom-color">' . htmlspecialchars($song['duration']) . '</div>';
+    
+        echo '</div>';
     }
     ?>
   </main>
@@ -99,19 +112,19 @@
         <!-- Media Controls -->
         <div class="d-flex align-items-center">
         <button class="btn btn-outline-light me-2">
-                <i class="fas fa-repeat"></i>
+                <i class="bi bi-repeat"></i>
         </button>
         <button class="btn btn-outline-light me-2">
-                <i class="fas fa-step-backward"></i>
+                <i class="bi bi-skip-backward-fill"></i>
             </button>
             <button class="btn btn-light me-2">
-                <i class="fas fa-play"></i>
+              <i class="bi bi-play-fill"></i>
             </button>
             <button class="btn btn-outline-light me-2">
-                <i class="fas fa-step-forward"></i>
+                <i class="bi bi-fast-forward-fill"></i>
             </button>
             <button class="btn btn-outline-light me-2">
-                <i class="fas fa-shuffle"></i>
+                <i class="bi bi-shuffle"></i>
             </button>
         </div>
 
@@ -123,8 +136,8 @@
     </div>
 
     <!-- Progress Bar -->
-    <div class="container mt-2">
-        <input type="range" class="form-range" id="progressBar" min="0" max="100" step="1" value="0">
+    <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar bg-success" style="width: 25%"></div>
     </div>
 </footer>
 
