@@ -69,7 +69,7 @@
     foreach ($songs as $index => $song) {
         echo '<div class="row song align-items-center">';
         // Display the song index (1-based index)
-        echo '<small class="col-1">' . ($index + 1) . '</small>';
+        echo '<small class="col-1 text-custom-color">' . ($index + 1) . '</small>';
     
         echo '<div class="col-4 text-start d-flex align-items-center">';
         // Check if the song has a cover image
