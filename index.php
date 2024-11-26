@@ -39,14 +39,14 @@
     </div>
         <!-- Action buttons -->
         <div class="p-6">
-      <button type="button" class="btn btn-play" aria-label="Play">
+      <button type="button" class="btn" id="btn-play" aria-label="Play">
         <i class="bi bi-play-fill"></i>
       </button>
       <button type="button" class="btn" id="btn-favorite" aria-label="Favorite">
-        <i class="bi bi-heart text-light"></i>
+        <i class="bi bi-heart"></i>
       </button>
       <button type="button" class="btn" id="btn-more-options" aria-label="More options">
-        <i class="bi bi-three-dots text-light"></i>
+        <i class="bi bi-three-dots"></i>
       </button>
     </div> 
         <!-- Song information row -->
@@ -111,19 +111,19 @@
 
         <!-- Media Controls -->
         <div class="d-flex align-items-center">
-        <button class="btn btn-outline-light me-2">
+        <button class="btn me-2">
                 <i class="bi bi-repeat"></i>
         </button>
-        <button class="btn btn-outline-light me-2">
+        <button class="btn me-2">
                 <i class="bi bi-skip-backward-fill"></i>
             </button>
-            <button class="btn btn-light me-2">
-              <i class="bi bi-play-fill"></i>
+            <button class="btn me-2">
+              <i class="bi bi-pause-circle"></i>
             </button>
-            <button class="btn btn-outline-light me-2">
+            <button class="btn me-2">
                 <i class="bi bi-fast-forward-fill"></i>
             </button>
-            <button class="btn btn-outline-light me-2">
+            <button class="btn me-2">
                 <i class="bi bi-shuffle"></i>
             </button>
         </div>

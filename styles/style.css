@@ -23,6 +23,7 @@ footer {
     border-color: #83ba36 black black #83ba36;
     margin: 0px -5px 20px 10px;
     box-shadow: 3px 3px black;
+    transition-duration: 0.4s;
 }
 .row {
     color: #83ba36;
@@ -49,8 +50,8 @@ footer {
 .progress-bar {
     background-color:#2a513f;
 }
-.fa-repeat .fa-step-backward .fa-play .fa-step-forward .fa-shuffle {
-    background-color: #83ba36;
+.bi-pause-fill {
+    border-radius: 50%;
 }
 .body {
     color: #2a513f;
@@ -58,6 +59,15 @@ footer {
 
 .text-custom-color {
     color: black;
+}
+
+.btn:hover {
+    color:black;
+    background-color:#2a513f;
+    border-style: solid;
+    border-color:black;
+    border-width: 1px;
+
 }
 
 
