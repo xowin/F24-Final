@@ -117,8 +117,8 @@
         <button class="btn me-2">
                 <i class="bi bi-skip-backward-fill"></i>
             </button>
-            <button class="btn me-2">
-              <i class="bi bi-pause-circle"></i>
+            <button class="btn me-2" id="btn-pause">
+              <i class="bi bi-pause-fill"></i>
             </button>
             <button class="btn me-2">
                 <i class="bi bi-fast-forward-fill"></i>
